@@ -1,3 +1,32 @@
 body {
-  background-color: d3e0cc;
+  background-color: #d3e0cc;
+}
+h1{
+  color: #2c4a54;
+  font-size: 300%;
+  letter-spacing: 5px;
+}
+ul{
+  list-style-type: none;
+  background-color: #91b0ba;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+  left: 0;
+  top: 0;
+  margin: 0;
+}
+li{
+  float:left;
+}
+li a{
+  display: block;
+  color: clab;
+  text-decoration: none;
+  padding: 15px 50px;
+}
+li a:hover {
+  background-color: #adc2c9;
+  color: black;
 }
